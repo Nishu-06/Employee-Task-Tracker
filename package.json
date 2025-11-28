@@ -1,0 +1,13 @@
+{
+  "name": "taskflow-prou",
+  "version": "1.0.0",
+  "description": "TaskFlow ProU - Employee Task Tracker",
+  "scripts": {
+    "build": "cd backend && npm install",
+    "start": "cd backend && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
