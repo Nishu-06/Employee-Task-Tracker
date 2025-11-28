@@ -297,7 +297,7 @@ Authorization: Bearer <your-jwt-token>
 | `GET` | `/auth/me` | Get current user profile | Yes |
 
 **Register Request:**
-```json
+```http
 POST /api/auth/register
 Content-Type: application/json
 
@@ -310,7 +310,7 @@ Content-Type: application/json
 ```
 
 **Login Request:**
-```json
+```http
 POST /api/auth/login
 Content-Type: application/json
 
@@ -351,7 +351,7 @@ Authorization: Bearer <token>
 ```
 
 **Create Employee:**
-```json
+```http
 POST /api/employees
 Authorization: Bearer <token>
 Content-Type: application/json
@@ -389,7 +389,7 @@ Authorization: Bearer <token>
 - `search` — Search by title or description
 
 **Create Task:**
-```json
+```http
 POST /api/tasks
 Authorization: Bearer <token>
 Content-Type: application/json
@@ -405,7 +405,7 @@ Content-Type: application/json
 ```
 
 **Update Task Status:**
-```json
+```http
 PATCH /api/tasks/:id/status
 Authorization: Bearer <token>
 Content-Type: application/json
