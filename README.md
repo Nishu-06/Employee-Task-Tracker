@@ -271,14 +271,14 @@ cd "TaskFlow ProU"
 
 # 4. API Endpoint Documentation
 
-### Base URL
+## Base URL
 
 ```
 Development: http://localhost:5000/api
 Production: https://your-backend-url.com/api
 ```
 
-### Authentication
+## Authentication
 
 All endpoints (except `/auth/register` and `/auth/login`) require authentication. Include the JWT token in the Authorization header:
 
@@ -286,9 +286,9 @@ All endpoints (except `/auth/register` and `/auth/login`) require authentication
 Authorization: Bearer <your-jwt-token>
 ```
 
-### Endpoints
+## Endpoints
 
-#### Authentication Endpoints
+### Authentication Endpoints
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
@@ -334,7 +334,7 @@ Content-Type: application/json
 }
 ```
 
-#### Employee Endpoints
+### Employee Endpoints
 
 | Method | Endpoint | Description | Auth Required | Role Required |
 |--------|----------|-------------|---------------|---------------|
@@ -365,7 +365,7 @@ Content-Type: application/json
 }
 ```
 
-#### Task Endpoints
+### Task Endpoints
 
 | Method | Endpoint | Description | Auth Required | Role Required |
 |--------|----------|-------------|---------------|---------------|
@@ -508,7 +508,7 @@ Common HTTP status codes:
 
 # 6. Assumptions & Limitations
 
-### Assumptions
+## Assumptions
 
 1. **Default Admin User**: The database seed script creates a default admin user with credentials:
    - **Email:** `admin@taskflow.com`
@@ -521,7 +521,7 @@ Common HTTP status codes:
 
 4. **CORS Configuration**: Frontend and backend are expected to run on different ports/domains, requiring CORS configuration.
 
-### Limitations
+## Limitations
 
 1. **Role Management**: The application supports only two roles (Admin and Employee). There is no advanced role management system with custom permissions or multiple role assignments.
 
@@ -578,5 +578,3 @@ This project is open source and available under the MIT License.
 For questions, issues, or contributions, please open an issue in the repository.
 
 ---
-
-**Built with ❤️ using React, Express, and MongoDB**
