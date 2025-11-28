@@ -2,6 +2,14 @@
 
 A fullstack web application for managing employees and tracking their assigned tasks. Built with React frontend, Express backend, and MongoDB database.
 
+## 🚀 Live Application
+
+- **Backend API:** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
+- **Backend URL:** [https://employee-task-tracker-vfc4.onrender.com](https://employee-task-tracker-vfc4.onrender.com)
+
+**Default Admin Credentials:**
+- Email: `admin@taskflow.com`
+- Password: `admin123`
 
 ---
 
@@ -13,7 +21,6 @@ A fullstack web application for managing employees and tracking their assigned t
 - [4. API Endpoint Documentation](#4-api-endpoint-documentation)
 - [5. Screenshots / Screen Recording](#5-screenshots--screen-recording)
 - [6. Assumptions & Limitations](#6-assumptions--limitations)
-- [7. Deployment Links](#7-deployment-links)
 
 ---
 
@@ -543,33 +550,6 @@ Common HTTP status codes:
 7. **Pagination**: Large datasets are not paginated. All data is loaded at once.
 
 8. **Search Functionality**: Basic search is implemented, but advanced filtering and sorting options are limited.
-
----
-
-# 7. Deployment Links
-
-### Production URLs
-
-- **Backend (Render):** [https://employee-task-tracker-vfc4.onrender.com](https://employee-task-tracker-vfc4.onrender.com)
-- **API Base URL:** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
-- **Frontend (Vercel):** [Add your Vercel deployment URL here]
-- **Database:** MongoDB Atlas (cloud-hosted)
-
-### Live Application
-
-```
-Backend API: https://employee-task-tracker-vfc4.onrender.com/api
-Frontend: [To be added]
-Database: MongoDB Atlas Cluster (private)
-```
-
-### Access Credentials
-
-**Default Admin Account:**
-- Email: `admin@taskflow.com`
-- Password: `admin123`
-
-**Note:** Change the default admin password in production!
 
 ---
 
