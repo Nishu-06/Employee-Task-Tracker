@@ -478,16 +478,39 @@ Common HTTP status codes:
 
 # 5. Screenshots / Screen Recording
 
-<!-- Add screenshots or Loom recording link here -->
+### 🏠 Dashboard Overview
 
-**Screenshots coming soon...**
+![Dashboard](frontend/assets/dashboard.png)
 
-- Dashboard overview
-- Employee management interface
-- Task Kanban board
-- Login/Register pages
+### 🔐 Login Page
 
-**Screen Recording:** [Add Loom or YouTube link here]
+![Login Page](frontend/assets/login-page.png)
+
+### 👥 Employee Management
+
+![Employees](frontend/assets/Employees.png)
+
+### 📋 Tasks Board
+
+![Tasks](frontend/assets/Tasks.png)
+
+### ➕ Add New Employee
+
+![Add Employee](frontend/assets/Add%20new%20Employee.png)
+
+### ➕ Add New Task
+
+![Add Task](frontend/assets/Add%20new%20Task.png)
+
+### 🌙 Dark Mode Toggle
+
+![Dark Mode](frontend/assets/dark-mode.png)
+
+### 🆕 Recent Tasks Widget
+
+![Recent Tasks](frontend/assets/recent-tasks.png)
+
+**Screen Recording:** _Coming soon (add Loom or YouTube link here)_
 
 ---
 
