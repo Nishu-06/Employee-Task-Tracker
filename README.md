@@ -39,7 +39,7 @@ A fullstack web application for managing employees and tracking their assigned t
 
 ---
 
-## 2. Tech Stack & Architecture
+# 2. Tech Stack & Architecture
 
 ### Frontend Technologies
 
@@ -116,7 +116,7 @@ TaskFlow ProU/
 
 ---
 
-## 3. Setup & Run Instructions
+# 3. Setup & Run Instructions
 
 ### Prerequisites
 
@@ -476,7 +476,7 @@ Common HTTP status codes:
 
 ---
 
-## 5. Screenshots / Screen Recording
+# 5. Screenshots / Screen Recording
 
 <!-- Add screenshots or Loom recording link here -->
 
