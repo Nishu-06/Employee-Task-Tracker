@@ -226,26 +226,31 @@ cd "TaskFlow ProU"
 
 3. **Set environment variable in Vercel dashboard:**
    - Go to your project settings
-   - Add environment variable: `VITE_API_URL` = `https://your-backend-url.com/api`
+   - Add environment variable: `VITE_API_URL` = `https://employee-task-tracker-vfc4.onrender.com/api`
    - Redeploy after setting the variable
 
-#### Backend Deployment (Railway)
+#### Backend Deployment (Render)
 
-1. **Create a new project on Railway:**
-   - Visit [railway.app](https://railway.app)
-   - Click "New Project"
-   - Select "Deploy from GitHub repo"
+1. **Create a new web service on Render:**
+   - Visit [render.com](https://render.com)
+   - Click "New +" → "Web Service"
+   - Connect your GitHub repository
 
-2. **Configure environment variables:**
+2. **Configure the service:**
+   - **Root Directory:** Set to `backend/`
+   - **Build Command:** Leave blank (uses `npm run build` from `backend/package.json`)
+   - **Start Command:** Leave blank (uses `npm start` from `backend/package.json`)
+
+3. **Configure environment variables:**
    - `MONGODB_URI` — Your MongoDB Atlas connection string
-   - `PORT` — Railway will set this automatically
+   - `PORT` — Render will set this automatically
    - `NODE_ENV` — `production`
    - `JWT_SECRET` — Generate a secure random string
    - `CORS_ORIGIN` — Your frontend URL (e.g., `https://your-app.vercel.app`)
 
-3. **Deploy:**
-   - Railway will automatically detect Node.js and run `npm start`
-   - Your backend will be available at `https://your-app.railway.app`
+4. **Deploy:**
+   - Render will automatically build the frontend and deploy the backend
+   - Your backend will be available at `https://employee-task-tracker-vfc4.onrender.com`
 
 #### Database (MongoDB Atlas)
 
@@ -275,7 +280,7 @@ cd "TaskFlow ProU"
 
 ```
 Development: http://localhost:5000/api
-Production: https://your-backend-url.com/api
+Production: https://employee-task-tracker-vfc4.onrender.com/api
 ```
 
 ## Authentication
@@ -545,15 +550,16 @@ Common HTTP status codes:
 
 ### Production URLs
 
+- **Backend (Render):** [https://employee-task-tracker-vfc4.onrender.com](https://employee-task-tracker-vfc4.onrender.com)
+- **API Base URL:** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
 - **Frontend (Vercel):** [Add your Vercel deployment URL here]
-- **Backend (Railway):** [Add your Railway deployment URL here]
 - **Database:** MongoDB Atlas (cloud-hosted)
 
-### Example URLs (Replace with your actual URLs)
+### Live Application
 
 ```
-Frontend: https://taskflow-prou.vercel.app
-Backend: https://taskflow-prou-backend.railway.app
+Backend API: https://employee-task-tracker-vfc4.onrender.com/api
+Frontend: [To be added]
 Database: MongoDB Atlas Cluster (private)
 ```
 
