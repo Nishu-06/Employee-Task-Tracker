@@ -2,10 +2,6 @@
 
 A fullstack web application for managing employees and tracking their assigned tasks. Built with React frontend, Express backend, and MongoDB Atlas database.
 
-![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
-![React](https://img.shields.io/badge/React-18.2-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Express-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
 
 ---
 
@@ -21,7 +17,7 @@ A fullstack web application for managing employees and tracking their assigned t
 
 ---
 
-## 1. Project Overview
+# 1. Project Overview
 
 **TaskFlow ProU** is a comprehensive Employee Task Tracker designed to streamline task management and employee oversight within organizations. The application provides a centralized platform where administrators can manage employees and assign tasks, while employees can view and update their assigned tasks.
 
@@ -273,7 +269,7 @@ cd "TaskFlow ProU"
 
 ---
 
-## 4. API Endpoint Documentation
+# 4. API Endpoint Documentation
 
 ### Base URL
 
@@ -495,7 +491,7 @@ Common HTTP status codes:
 
 ---
 
-## 6. Assumptions & Limitations
+# 6. Assumptions & Limitations
 
 ### Assumptions
 
@@ -530,7 +526,7 @@ Common HTTP status codes:
 
 ---
 
-## 7. Deployment Links
+# 7. Deployment Links
 
 ### Production URLs
 
