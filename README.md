@@ -2,10 +2,10 @@
 
 A fullstack web application for managing employees and tracking their assigned tasks. Built with React frontend, Express backend, and MongoDB database.
 
-## 🚀 Live Application
+##  Live Application
+### **Track 1&2&3 Submission** — Fullstack Web App (Frontend + API + Database)
 
-- **Backend API:** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
-- **Backend URL:** [https://employee-task-tracker-vfc4.onrender.com](https://employee-task-tracker-vfc4.onrender.com)
+**Deployed Link (Render) :** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
 
 **Default Admin Credentials:**
 - Email: `admin@taskflow.com`
@@ -537,19 +537,10 @@ Common HTTP status codes:
 
 1. **Role Management**: The application supports only two roles (Admin and Employee). There is no advanced role management system with custom permissions or multiple role assignments.
 
-2. **UI Design**: The UI is functional and responsive but focuses on functionality over extensive design polish. Advanced animations and complex UI components are not implemented.
-
 3. **Task Assignment**: Employees can only update the status of tasks assigned to them. They cannot create, edit, or delete tasks.
-
-4. **No Real-time Updates**: The application does not use WebSockets or real-time communication. Data updates require page refresh or manual API calls.
-
-5. **File Uploads**: The application does not support file attachments for tasks or employee profile pictures (uses generated avatars).
-
-6. **Email Notifications**: No email notification system for task assignments or updates.
 
 7. **Pagination**: Large datasets are not paginated. All data is loaded at once.
 
-8. **Search Functionality**: Basic search is implemented, but advanced filtering and sorting options are limited.
 
 ---
 
