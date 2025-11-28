@@ -480,21 +480,25 @@ Common HTTP status codes:
 
 Explore a few key screens from the app:
 
+**Dashboard & Login**
 <p>
   <img src="frontend/assets/dashboard.png" alt="Dashboard" width="48%" />
   <img src="frontend/assets/login-page.png" alt="Login Page" width="48%" />
 </p>
 
+**Employees & Tasks**
 <p>
   <img src="frontend/assets/Employees.png" alt="Employees" width="48%" />
   <img src="frontend/assets/Tasks.png" alt="Tasks" width="48%" />
 </p>
 
+**Create Employee & Task**
 <p>
   <img src="frontend/assets/Add%20new%20Employee.png" alt="Add Employee" width="48%" />
   <img src="frontend/assets/Add%20new%20Task.png" alt="Add Task" width="48%" />
 </p>
 
+**Dark Mode & Recent Tasks**
 <p>
   <img src="frontend/assets/dark-mode.png" alt="Dark Mode" width="48%" />
   <img src="frontend/assets/recent-tasks.png" alt="Recent Tasks" width="48%" />
