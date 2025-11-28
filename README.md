@@ -1,6 +1,6 @@
 # TaskFlow ProU — Employee Task Tracker
 
-A fullstack web application for managing employees and tracking their assigned tasks. Built with React frontend, Express backend, and MongoDB Atlas database.
+A fullstack web application for managing employees and tracking their assigned tasks. Built with React frontend, Express backend, and MongoDB database.
 
 
 ---
