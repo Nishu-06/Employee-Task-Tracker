@@ -83,14 +83,14 @@ const corsOptions = {
   optionsSuccessStatus: 204
 };
 
-// Apply CORS middleware
+// 1) CORS middleware - must be first
 app.use(cors(corsOptions));
 
-
+// 2) Body parsers
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-
+// 3) Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/employees', employeeRoutes);
 app.use('/api/tasks', taskRoutes);
@@ -104,7 +104,7 @@ app.get('/api/health', (req, res) => {
 // Error handling middleware
 app.use(errorHandler);
 
-
+// 4) Start server - bind to 0.0.0.0 for public access (Railway)
 const startServer = async () => {
   try {
     await connectDB();
