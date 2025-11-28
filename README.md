@@ -478,6 +478,8 @@ Common HTTP status codes:
 
 # 5. Screenshots / Screen Recording
 
+Explore a few key screens from the app:
+
 <p>
   <img src="frontend/assets/dashboard.png" alt="Dashboard" width="48%" />
   <img src="frontend/assets/login-page.png" alt="Login Page" width="48%" />
