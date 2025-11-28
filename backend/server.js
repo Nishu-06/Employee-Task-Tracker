@@ -1,12 +1,12 @@
-import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import express from 'express';
 import { connectDB } from './config/database.js';
+import { errorHandler } from './middleware/errorHandler.js';
+import authRoutes from './routes/authRoutes.js';
+import dashboardRoutes from './routes/dashboardRoutes.js';
 import employeeRoutes from './routes/employeeRoutes.js';
 import taskRoutes from './routes/taskRoutes.js';
-import dashboardRoutes from './routes/dashboardRoutes.js';
-import authRoutes from './routes/authRoutes.js';
-import { errorHandler } from './middleware/errorHandler.js';
 
 dotenv.config();
 
@@ -108,8 +108,8 @@ app.use(errorHandler);
 const startServer = async () => {
   try {
     await connectDB();
-    app.listen(PORT, () => {
-      console.log(`🚀 Server is running on http://localhost:${PORT}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 Server is running on port ${PORT}`);
     });
   } catch (error) {
     console.error('❌ Unable to start server:', error);
