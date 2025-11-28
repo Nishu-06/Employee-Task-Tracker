@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "build": "echo 'No build step required for backend'",
+    "build": "cd ../frontend && npm install && npm run build && mkdir -p ../backend/public && cp -r dist/* ../backend/public/",
     "dev": "nodemon server.js",
     "seed": "node scripts/seed.js"
   },
