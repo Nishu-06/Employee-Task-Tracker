@@ -502,7 +502,7 @@ Common HTTP status codes:
   <img src="frontend/assets/recent-tasks.png" alt="Recent Tasks" width="48%" />
 </p>
 
-**Screen Recording:** [Watch demo](frontend/assets/Screen-Recording.mp4)
+**Screen Recording:** [Watch demo](https://drive.google.com/file/d/1rv_VrEjfhr_QCYF0XlsL1sf5tIRcYNdz/view?usp=sharing)
 
 ---
 
