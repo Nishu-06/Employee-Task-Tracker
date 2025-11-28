@@ -5,7 +5,7 @@ A fullstack web application for managing employees and tracking their assigned t
 ##  Live Application
 ### **Track 1&2&3 Submission** — Fullstack Web App (Frontend + API + Database)
 
-**Deployed Link (Render) :** [https://employee-task-tracker-vfc4.onrender.com/api](https://employee-task-tracker-vfc4.onrender.com/api)
+**Deployed Link (Render) :** [https://employee-task-tracker-vfc4.onrender.com](https://employee-task-tracker-vfc4.onrender.com)
 
 **Default Admin Credentials:**
 - Email: `admin@taskflow.com`
