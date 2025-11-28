@@ -1,4 +1,4 @@
-import api from './axios'
+import api from '../api'
 
 export const getEmployees = async (filters = {}) => {
   const params = new URLSearchParams()
