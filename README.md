@@ -478,37 +478,25 @@ Common HTTP status codes:
 
 # 5. Screenshots / Screen Recording
 
-### 🏠 Dashboard Overview
+<p>
+  <img src="frontend/assets/dashboard.png" alt="Dashboard" width="48%" />
+  <img src="frontend/assets/login-page.png" alt="Login Page" width="48%" />
+</p>
 
-![Dashboard](frontend/assets/dashboard.png)
+<p>
+  <img src="frontend/assets/Employees.png" alt="Employees" width="48%" />
+  <img src="frontend/assets/Tasks.png" alt="Tasks" width="48%" />
+</p>
 
-### 🔐 Login Page
+<p>
+  <img src="frontend/assets/Add%20new%20Employee.png" alt="Add Employee" width="48%" />
+  <img src="frontend/assets/Add%20new%20Task.png" alt="Add Task" width="48%" />
+</p>
 
-![Login Page](frontend/assets/login-page.png)
-
-### 👥 Employee Management
-
-![Employees](frontend/assets/Employees.png)
-
-### 📋 Tasks Board
-
-![Tasks](frontend/assets/Tasks.png)
-
-### ➕ Add New Employee
-
-![Add Employee](frontend/assets/Add%20new%20Employee.png)
-
-### ➕ Add New Task
-
-![Add Task](frontend/assets/Add%20new%20Task.png)
-
-### 🌙 Dark Mode Toggle
-
-![Dark Mode](frontend/assets/dark-mode.png)
-
-### 🆕 Recent Tasks Widget
-
-![Recent Tasks](frontend/assets/recent-tasks.png)
+<p>
+  <img src="frontend/assets/dark-mode.png" alt="Dark Mode" width="48%" />
+  <img src="frontend/assets/recent-tasks.png" alt="Recent Tasks" width="48%" />
+</p>
 
 **Screen Recording:** _Coming soon (add Loom or YouTube link here)_
 
